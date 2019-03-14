@@ -49,7 +49,8 @@ end
 
 def runner
   welcome 
-  initial_round
-  prompt_user
+  tot = initial_round
+  while tot < 21 
+    prompt_user
 end
     
