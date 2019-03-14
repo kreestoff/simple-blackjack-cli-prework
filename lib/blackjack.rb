@@ -52,6 +52,6 @@ def runner
   tot = initial_round
   while tot < 21 
     tot = hit?
-    
+    display_card_total
 end
     
